@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body{
-    padding-top:56px;
-}
-
 .btn {
     min-width: 150px;
 }
@@ -30,6 +26,15 @@ body{
 /* E : Scroll Bar */
 
 .gradient{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background:springgreen;
+    background: linear-gradient(45deg, springgreen, dodgerblue);
+}
+
+.bg-black{
+    background: #000000;
+}
+
+li{
+    margin:0px;
+    padding:0px;
 }
