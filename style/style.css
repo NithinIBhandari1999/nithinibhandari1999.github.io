@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    
-}
-
-
 /* S : Scroll Bar */
 ::-webkit-scrollbar {
     width: 7px;
