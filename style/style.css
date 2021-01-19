@@ -1,14 +1,13 @@
 * {
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #000000;
+    
 }
 
-.btn {
-    min-width: 150px;
-}
 
 /* S : Scroll Bar */
 ::-webkit-scrollbar {
@@ -29,11 +28,16 @@ body {
 }
 /* E : Scroll Bar */
 
-.bg-black{
-    background: #000000;
+.icons{
+    height: 60px;
+    margin: 10px;
+    display: inline-block;
+}
+.icons:hover{
+    height: 70px;
+    margin: 5px;
 }
 
-li{
-    margin:0px;
-    padding:0px;
+.custom-shadow{
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
 }
